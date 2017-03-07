@@ -5,13 +5,17 @@ using namespace std;
 int main()      //This is the main function
 {   //Start of main body
 
-    string a;   //Declares string variable with label : a
+    string x;      //Declares string variable with label : x
 
-    cout<<"Enter your string:"<<endl;      //Prompts the user for the value of the string
+    cout<<"Please enter a string: "<<endl;      //Prompts the user for number
 
-    cin>>a;     //Takes user input and stores it in variable
+    cin>>x;     //Takes user input and stores it in variable
 
-    cout<<"Your value of the integer "<<a<<endl;         //Displays the value to the user
+   cout<<endl<<"outside integer"<<endl;
 
-    return 0;       //End of program
-}   //End of main body
+   int b=int (x);
+
+   cout<<b<<endl;    //Displays the number to the user
+
+return 0;       //End of program
+} //End of main body
