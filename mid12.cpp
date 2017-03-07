@@ -11,12 +11,12 @@ int main()      //This is the main function
 
     cin>>age;        //Takes user input and stores it in variable
 
-    if (age<18)
+    if (age<=18)     //Checks whether the candidate is 18 or older than 18
     {
         cout<<"Sorry! You can't vote."<<endl;       //Displays the answer to the user
     }
 
-    else
+    else        //Checks whether the candidate is younger than 18
     {
         cout<<"Congrats! You can vote!"<<endl;      //Displays the answer to the user
     }
