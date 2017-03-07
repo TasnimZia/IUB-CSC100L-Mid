@@ -11,26 +11,26 @@ int main()      //This is the main function
 
     cin>>grade;     //Takes user input and stores it in variable
 
-    if (grade=='e')
+    if (grade=='e')         //Checks whether the grade is e
     {
         cout<<"Excellent!"<<endl;       //Displays the equivalent description of the grade to the user
     }
 
-    else if (grade=='v')
+    else if (grade=='v')        //Checks whether the grade is v
     {
         cout<<"Very good!"<<endl;         //Displays the equivalent description of the grade to the user
     }
 
-    else if (grade=='g')
+    else if (grade=='g')        //Checks whether the grade is g
     {
         cout<<"Good"<<endl;           //Displays the equivalent description of the grade to the user
     }
-    else if (grade=='a')
+    else if (grade=='a')        //Checks whether the grade is a
     {
         cout<<"Average"<<endl;        //Displays the equivalent description of the grade to the user
     }
 
-    else if (grade=='f')
+    else if (grade=='f')        //Checks whether the grade is f
     {
         cout<<"Fail"<<endl;       //Displays the equivalent description of the grade to the user
     }
