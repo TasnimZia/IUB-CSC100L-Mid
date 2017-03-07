@@ -5,7 +5,7 @@ using namespace std;
 int main()      //This is the main function
 { //Start of main body
 
-    float c;
+    float c;        //Declares float variable with the label: c
 
     cout<<"Please enter a temperature: "<<endl;      //Prompts the user for number
 
