@@ -15,12 +15,12 @@ int main()      //This is the main function
 
     cin>>second_number;     //Takes user input and stores it in variable
 
-    if (first_number==second_number)
+    if (first_number==second_number)        //Checks whether the numbers are equal
     {
         cout<<"Your number is equal"<<endl;     //Displays the result to the user
     }
 
-    else
+    else        //Checks whether the numbers aren't equal
     {
         cout<<"Your number is not equal"<<endl;     //Displays the result to the user
     }
