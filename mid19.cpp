@@ -17,12 +17,12 @@ int main()      //This is the main function
 
     total=selling_price-cost_price;     //Formula to conduct the operation
 
-    if (cost_price<=selling_price)
+    if (cost_price<=selling_price)      //Checks whether it is a profit or a loss
     {
         cout<<"You made a profit of amount: "<<total<<endl;       //Displays the value to the user
     }
 
-    else
+    else        //Checks whether it is a profit or a loss
     {
         cout<<"You made a loss of amount: "<<total<<endl;         //Displays the value to the user
 
