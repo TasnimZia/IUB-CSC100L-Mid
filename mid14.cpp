@@ -18,11 +18,11 @@ int main()      //This is the main function
 
     cout<<endl;     //Creates one line gap
 
-    if  (x==0)
+    if  (x==0)      //Checks whether the x-coordinate is equal to 0
     {
-        if (y==0)
+        if (y==0)       //Checks whether the y-coordinate is equal to 0
         {
-            cout<<"Point A lies in the origin."<<endl;
+            cout<<"Point A lies in the origin."<<endl;       //Displays the origin to the user
         }
     }
 
