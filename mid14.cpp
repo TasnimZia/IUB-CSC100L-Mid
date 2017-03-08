@@ -8,11 +8,11 @@ int main()      //This is the main function
     float x, y;     //Declares float variable with label : x, y
 
 
-    cout<<"Please enter your x-coordinate of point A: "<<endl;
+    cout<<"Please enter your x-coordinate of point A: "<<endl;      //Prompts the user for number
 
     cin>>x;     //Takes user input and stores it in variable
 
-    cout<<"Please enter your y-coordinate of point A: "<<endl;
+    cout<<"Please enter your y-coordinate of point A: "<<endl;      //Prompts the user for number
 
     cin>>y;     //Takes user input and stores it in variable
 
